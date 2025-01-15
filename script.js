@@ -1,15 +1,3 @@
-/* 
-Thinking through the steps to build the Tic Tac Toe game, and how to separate the projects into the appropriate pieces
-
-Create the Board
-Create the players
-Assign Xs and Os to players
-Let the players place their mark on the board
-Evaluate the gameboard for a winner
-Tally results in a scoreboard
-Reset the game board
-*/
-
 function createGameBoard() {
     let gameBoard = [[0,0,0],[0,0,0],[0,0,0]];
     let playcounter = 0;

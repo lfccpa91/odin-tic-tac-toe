@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-tac-toe</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="header">
+        <h1>Tic-tac-toe</h1>
+        <h3>Let's play!</h3>
+    </div>
+    <div id="sidebar">
+        <h2>Set Up Game</h2>
+        <form action="">
+            <label for="player1">Player 1</label>
+            <input type="text" name="player1" id="player1">
+            <label for="player1">Player 2</label>
+            <input type="text" name="player2" id="player2">
+            <button type="button">Start Game</button>
+            <button type="button">Reset Game</button>
+        </form>
+    </div>
+    <div id = "gameboard">
+
+    </div>
+    <div id="scoreBoard">
+        <h2>Scoreboard</h2>
+        <div>Player 1</div>
+        <div>Player 2</div>
+        <div id="player1score"></div>
+        <div id="player2score"></div>
+    </div>
     
 </body>
 </html>

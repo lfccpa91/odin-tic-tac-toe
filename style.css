@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: "header header header"
+    "sidebar gameBoard scoreBoard";
+}
+
+#header {
+    grid-area: header;
+    justify-content: center;
+    background-color: cadetblue;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    background-color: yellow;
+}
+
+#gameboard {
+    grid-area: gameBoard;
+    background-color: pink;
+}
+
+#scoreBoard {
+    grid-area: scoreBoard;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 20px 50px;
+    grid-template-areas: "scoreboard scoreboard"
+    "player1header player2header"
+    "player1score" "player2score";
+    background-color: green;
+}
