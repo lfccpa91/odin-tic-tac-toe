@@ -14,24 +14,32 @@
     </div>
     <div id="sidebar">
         <h2>Set Up Game</h2>
-        <form action="">
-            <label for="player1">Player 1</label>
-            <input type="text" name="player1" id="player1">
-            <label for="player1">Player 2</label>
-            <input type="text" name="player2" id="player2">
-            <button type="button">Start Game</button>
-            <button type="button">Reset Game</button>
+        <form id="sidebarGrid" action="">
+            <label for="player1">Player 1 (Xs)</label>
+            <input type="text" name="Player 1" id="player1" value="Xs">
+            <label for="player1">Player 2 (Os)</label>
+            <input type="text" name="Player 2" id="player2" value = "Os">
+            <button id="StartButton" type="button">New Game</button>
+            <button id="ResetButton" type="button">Reset Game</button>
         </form>
     </div>
     <div id = "gameboard">
-
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
+        <div><img></div>
     </div>
     <div id="scoreBoard">
-        <h2>Scoreboard</h2>
-        <div>Player 1</div>
-        <div>Player 2</div>
-        <div id="player1score"></div>
-        <div id="player2score"></div>
+        <h2 id="scoreboardHeader">Scoreboard</h2>
+        <div id="player1header">Player 1</div>
+        <div id="player2header">Player 2</div>
+        <div id="player1score">0</div>
+        <div id="player2score">0</div>
     </div>
     
 </body>
